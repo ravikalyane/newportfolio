@@ -1,0 +1,248 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#go-top a{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	font-size: 40px;
+	color: black;
+}
+
+/*		NAVIGATION		*/
+
+.navbar{
+
+	padding: 20px;
+	background-color: transparent!important;
+}
+.navbar-nav{
+	font-weight: 600;
+	color: #555;
+	font-size: 17px;	
+}
+.nav-item{
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+	float: right;
+	color: white!important;
+
+}
+
+.navbar-nav a:hover{
+	color: #007bff!important;
+}
+
+/*--- TOP ----*/
+#top{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: black;
+}
+
+h2{
+	color: white;
+}
+
+.name p{
+	color: white;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#top i{
+	color: white;
+	font-size: 30px;
+	opacity: 0.7;
+	padding-bottom: 20px;
+	animation-name: browse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes browse{
+	from {margin-bottom: px;}
+	to {margin-bottom: px;}
+}
+
+/*		ABOUT		*/
+
+#about{
+	margin: 50px;
+}
+h1{
+	text-align: center;
+}
+h1::after{
+	content: "";
+	display: block;
+	width: 180px;
+	height: 3px;
+	background-color: black;
+	margin: 15px auto 20px;
+}
+#about p{
+	font-size: 18px;
+	margin: 18px;
+}
+
+
+/*		PROJECTS		*/
+
+#projects{
+	background-color: #e7e7e7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+#projects .row{
+	margin-top: 30px; 
+}
+#projects h5{
+	padding-top: 20px;
+}
+
+
+/*		Tools		*/
+
+#tools{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+table img{
+	width: 75px; 
+	height: 75px;
+}
+
+#contact-form{
+	padding: 50px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+input, textarea{
+	margin: 10px;
+	padding: 5px;
+	border: 1px blue solid;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	FOOTER	*/
+
+#footer{
+	background-color: #eee;
+}
+.footer-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding: 10px;
+}
