@@ -11,6 +11,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="style.css" />
 
+        <!-- Fontawesome -->
         <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css" />
 
         <!-- Google Fonts -->
@@ -71,31 +72,97 @@
         <section id="projects">
             <div class="container">
                 <h1>My Projects</h1>
+
                 <div class="row">
-                    <div class="col-md-3 text-center" ">
-                    <h5>Todo App</h5>
-                    <a href="https://ravik-todolist.herokuapp.com/"><img class="img-fluid" src="todo.jpg" /></a>
+                    <div class="col-md-4 project-image">
+                        <img class="img-fluid" src="todo-p.png" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>To-Do App</h3>
+                                <p class="text-center">Developed a Django To-Do Web App with authentication and password reset option.</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="http://ravik-todolist.herokuapp.com/" target="_blank" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="notes-p.png" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>Notes App</h3>
+                                <p class="text-center">Developed a Django Notes Web App with authentication and password reset option.</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="http://ravik-notes.herokuapp.com/" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="blog-p.png" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>Blogsite</h3>
+                                <p class="text-center">Developed a Blogsite using Django in backend.</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="http://ravik-newblog.herokuapp.com/" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 text-center">
-                    <h5>Notes App</h5>
-                    <a href="https://ravik-notes.herokuapp.com/"><img class="img-fluid" src="notes.jpg" /></a>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h5>Blogsite</h5>
-                    <a href="https://ravik-newblog.herokuapp.com/"><img class="img-fluid" src="django_frontend.jpg" /></a>
-                    <a href="https://ravik-newblog.herokuapp.com/"><img class="img-fluid" src="django_backend.jpg" /></a>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h5>YT Thumbnail Viewer</h5>
-                    <a href="https://ravik-notes.herokuapp.com/"><img class="img-fluid" src="yt.jpg" /></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="js-todo.jpg" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>To-Do App</h3>
+                                <p class="text-center">To-Do App using Javascript</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="https://ravikalyane.github.io/js-todo/" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="analog_clock.jpg" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>Analog Clock</h3>
+                                <p class="text-center">Analog Clock using Javascript</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="https://ravikalyane.github.io/javascript-projects/#project-clock" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="counter.jpg" />
+                        <div class="overlay">
+                            <div class="overlay-border">
+                                <h3>Js Counter</h3>
+                                <p class="text-center">Counter using Javascript</p>
+                                <div>
+                                    <a href="" target="_blank"><i class="fab fa-github"></i></a><a href="https://ravikalyane.github.io/javascript-projects/#project-counter" target="_blank"><i class="far fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="tools">
             <div class="container">
-                <h1>Skills</h1>
+                <!--h1>Skills</h1-->
                 <div class="row">
+                    <div class="col-md-6 center">
+                        <h3>Technologies I work with</h3>
+                    </div>
                     <div class="col-md-6">
                         <table class="table table-borderless">
                             <tr>
@@ -118,25 +185,55 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="col-md-6">
-                        <h3>What I know?</h3>
-                    </div>
                 </div>
             </div>
         </section>
         <section id="contact-form">
-            <h1>Contact Me</h1>
+            <!--h1>Contact Me</h1-->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 main-form">
+                        <h3 class="text-center">Send me a message</h3>
                         <form action="https://formspree.io/mknqjokl" method="POST">
-                    <input type="text" name="_replyto" placeholder="Your Name" />
-                    <input type="text" name="_replyto" placeholder="Your Email" />
-                    <textarea name="message" placeholder="Your message"></textarea>
+                            <input type="text" name="_replyto" placeholder="Your Name" />
+                            <input type="text" name="_replyto" placeholder="Your Email" />
+                            <textarea name="message" placeholder="Your message"></textarea>
 
-                    <button class="btn btn-primary" type="submit">Send</button>
-                </form></div>
-                    <div class="col-md-6"></div>
+                            <button class="message-button" type="submit">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6 form-links">
+                        <p><i class="far fa-map-marker-minus"></i> Location : Mumbai</p>
+                        <p><i class="fal fa-envelope-open"></i> Email : raviikalyane@gmail.com</p>
+                        <p><i class="fal fa-mobile"></i> Mobile : 8291802846</p>
+                        <ul class="social-links">
+                            <li><p>Social:</p></li>
+                            <li>
+                                <a class="fontawesome github" href="https://github.com/ravikalyane" target="_blank">
+                                    <div class="github-bg"><i class="fab fa-github fa-2x"></i></div></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=918291802846" class="fontawesome whatsapp">
+                                    <div class="whatsapp-bg"><i class="fab fa-whatsapp fa-2x"></i></div>
+                            </li>
+                            <li>
+                                <a class="fontawesome linkedin" href="https://www.linkedin.com/in/ravikalyane" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a class="fontawesome instagram" href="https://www.instagram.com/ravikalyane" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a class="fontawesome twitter" href="https://www.twitter.com/raviikalyane" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a class="fontawesome facebook" href="https://www.facebook.com/raviikalyane" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a class="fontawesome youtube" href="https://www.youtube.com/channel/UCchubLfR1cF66PNpzAKMgXA" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -145,14 +242,9 @@
             <span class="footer-text">Designed by Ravi Kalyane</span>
         </section>
 
-        <div id="go-top"><a href="#"><i class="fal fa-arrow-circle-up"></i></a></div>
-
-
-
-
-
-
-
+        <div id="go-top">
+            <a href="#"><i class="fal fa-arrow-circle-up"></i></a>
+        </div>
 
         <!----- scripts----->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

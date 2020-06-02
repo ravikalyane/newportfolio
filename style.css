@@ -38,12 +38,12 @@ html{
 	padding-right: 20px!important;
 	float: right;
 	color: white!important;
-
 }
 
 .navbar-nav a:hover{
 	color: #007bff!important;
 }
+
 
 /*--- TOP ----*/
 #top{
@@ -107,11 +107,12 @@ h1::after{
 	background-color: #e7e7e7;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
 }
-#projects .row{
+
+#projects .col-md-4{
 	margin-top: 30px; 
 }
+
 #projects h5{
 	padding-top: 20px;
 }
@@ -124,30 +125,169 @@ h1::after{
 	padding-bottom: 50px;
 }
 
+.technologies{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 table img{
 	width: 75px; 
 	height: 75px;
 }
 
-#contact-form{
+#contact-form{ 
 	padding: 50px;
+	background-color: #FF3CAC;
+	background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+	color: white;
 }
 
 form{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+}
+
+.message-button{
+	width: 70px;
+	height: 30px;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+	color: #784BA0;
 }
 
 input, textarea{
+	border: none;
+	outline:none;
 	margin: 10px;
+	width: 100%;
+	height: 30px;
+	border-radius: 2px;
+}
+
+textarea{
+	height: 120px;
+}
+
+::placeholder{
 	padding: 5px;
-	border: 1px blue solid;
-	border-radius: 5px;
+
+}
+
+.form-links{
+	font-size: 20px;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.project-image{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #f8f8ff;
+	top:0;
+	left: 0;
+	opacity: 0;
+	transition: 1s ease;
+}
+.overlay:hover{
+	opacity: 0.9;
+}
+.overlay-border a, .overlay-border a:hover{
+	text-decoration: none;
+	color: black;
+}
+.overlay-border i{
+	font-size: 30px;
+	font-weight: 400;
+	padding: 15px;	
+}
+.overlay-border i:hover{
+	transform: scale(1.5,1.5);
+	transition: 0.5s;
+}
+
+.overlay-border{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #FFDF00;
 }
 
 
+/* Social Links */
+.social-links{
+	list-style: none;
+	display: flex;
+}
+.social-links li{
+	padding: 5px;
+}
+.social-links li:first-child{
+	padding-left: 0px;
+}
+.fontawesome {
+	color: white;
+	font-size: 15px;
+}
+.github-bg:hover{
+	height: 62%;
+	border-radius: 50%;
+	background: black;
+}
+.github:hover {
+	color: white;
+}
 
+.linkedin:hover {
+	color: #007BB5;
+}
 
+.facebook:hover {
+	color: #3B5998;
+}
+
+.twitter:hover {
+	color: #55ACEE;
+}
+
+.youtube:hover {
+	color: #FF0000;
+}
+.whatsapp-bg:hover{
+	height: 55%;
+	border-radius: 50%;
+	background: #25D366;
+}
+.whatsapp:hover{
+	color: white;
+}
+
+.fa-instagram:hover {
+	color: transparent;
+	background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+}
 
 
 
